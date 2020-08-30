@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Materialize</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+		<header>
+			<div class="navbar-fixed">
+				<nav class="transparent z-depth-0">
+					<div class="transparent nav-wrapper">
+						<a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
+						
+						<ul class="my-icons left hide-on-med-and-down">
+							<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href=""><i class="fab fa-twitter"></i></a></li>
+							<li><a href=""><i class="fab fa-instagram"></i></a></li>
+							<li><a href=""><i class="fab fa-youtube"></i></a></li>
+							<li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+						</ul>
+						<a href="#" class="center brand-logo">Materialize</a>
+						<ul id="nav-mobile" class="right my-upper hide-on-med-and-down">
+							<li><a href="">Home</a></li>
+							<li><a href="">About us</a></li>
+							<li><a href="">Portfolio</a></li>
+							<li><a href="">Blog</a></li>
+							<li><a href="">Contact</a></li>
+							<li><a href=""><i class="material-icons">search</i></a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			
+			<ul class="sidenav" id="mobile-demo">
+				<li>
+					<ul class="my-icons">
+						<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href=""><i class="fab fa-twitter"></i></a></li>
+						<li><a href=""><i class="fab fa-instagram"></i></a></li>
+						<li><a href=""><i class="fab fa-youtube"></i></a></li>
+						<li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+					</ul>
+				</li>
+				<li><div class="divider"></div></li>
+				<li><a href="">Home</a></li>
+				<li><a href="">About us</a></li>
+				<li><a href="">Portfolio</a></li>
+				<li><a href="">Blog</a></li>
+				<li><a href="">Contact</a></li>
+				<li>
+					<form>
+						<div class="input-field">							
+							<label class="label-icon" for="search"><i class="material-icons">search</i></label>
+							<input id="search" type="search" required>
+						</div>
+					</form>
+				</li>
+			</ul>
+  
+			<div class="carousel carousel-slider">
+				<div class="container carousel-fixed-item center">
+					<h1 class="white-text my-upper">Your <span class="red-text">service</span> ready to launch</h1>
+					<p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+					<a class="my-trn-btn transparent waves-effect waves-light btn-large">See our work</a>
+				</div>
+				<div class="carousel-item" href="#one!" style="background-image:url('img/slider1.jpg')"></div>
+				<div class="carousel-item" href="#two!" style="background-image:url('img/slider2.jpg')"></div>
+				<div class="carousel-item" href="#three!" style="background-image:url('img/slider3.jpg')"></div>
+			</div>
+		</header>
+		<main>
+			<section id="firstsection">
+				<div class="container">
+					<div class="row blue-grey-text text-darken-4">
+						<div class="col s12 m7 show-on-small">
+							<div class="card hide-on-med-and-up">
+								<div class="card-image">
+									<img src="img/secphoto1.jpg" alt="Photo">
+								</div>
+								<div class="card-content">
+									<h6 class="my-upper my-bold">Creative ideas</h6>
+									<p class="blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+									<a class="my-upper my-bold blue-grey-text text-darken-4" href="#">Read more</a>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m7 show-on-small">
+							<div class="card hide-on-med-and-up">
+								<div class="card-image">
+									<img src="img/secphoto2.jpg" alt="Photo">
+								</div>
+								<div class="card-content">
+									<h6 class="my-upper my-bold">Development</h6>
+									<p class="blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+									<a class="my-upper my-bold blue-grey-text text-darken-4" href="#">Read more</a>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m7 show-on-small">
+							<div class="card hide-on-med-and-up">
+								<div class="card-image">
+									<img src="img/secphoto3.jpg" alt="Photo">
+								</div>
+								<div class="card-content">
+									<h6 class="my-upper my-bold">Launch</h6>
+									<p class="blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+									<a class="my-upper my-bold blue-grey-text text-darken-4" href="#">Read more</a>
+								</div>
+							</div>
+						</div>
+						<div class="col m6 hide-on-small-only">
+							<div class="card horizontal">
+								<div class="card-stacked">
+									<div class="card-content">
+										<h6 class="my-upper my-bold">Creative ideas</h6>
+										<p class="my-card-pad blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+										<a class="my-upper my-bold blue-grey-text text-darken-4" href="#">Read more</a>
+									</div>
+								</div>
+								<div class="card-image">
+									<img src="img/secphoto1.jpg" alt="Photo">
+								</div>
+							</div>
+							<div class="card horizontal">
+								<div class="card-stacked">
+									<div class="card-content">
+										<h6 class="my-upper my-bold">Development</h6>
+								  		<p class="my-card-pad blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+										<a class="my-upper my-bold blue-grey-text text-darken-4" href="#">Read more</a>
+									</div>
+								</div>
+								<div class="card-image">
+									<img src="img/secphoto2.jpg" alt="Photo">
+								</div>
+							</div>
+							<div class="card horizontal">
+								<div class="card-stacked">
+									<div class="card-content">
+										<h6 class="my-upper my-bold">Launch</h6>
+								  		<p class="my-card-pad blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+										<a class="my-upper my-bold blue-grey-text text-darken-4" href="#">Read more</a>
+									</div>
+								</div>
+								<div class="card-image">
+									<img src="img/secphoto3.jpg" alt="Photo">
+								</div>
+							</div>
+						</div>
+						<div class="my-right-col col m6">
+							<h5 class="my-upper"><b>A user-friendly Themes, build with usability in mind great</b> modern design <b>and unique</b></h5>
+							<p class="blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+							<p class="blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+							<a class="my-bold my-trn-btn1 red darken-3 waves-effect waves-light btn-large">See our work</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="secondsection" class="grey lighten-4">
+				<div class="container">
+					<div class="row">
+						<div class="col s12 m12  center-align blue-grey-text text-darken-4">
+							<div class="card grey lighten-4 z-depth-0">
+								<div class="card-content">
+									<h4 class="my-bold">Simple & Best Way To Showcase Your Work</h4>
+									<p class="blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+								</div>
+								<div class="card-action z-depth-0">
+									<a href="#" class="my-bold blue-grey-text text-darken-4">Branding</a>
+									<a href="#" class="my-bold blue-grey-text text-darken-4">Mockup</a>
+									<a href="#" class="my-bold active1 red-text">All</a>
+									<a href="#" class="my-bold blue-grey-text text-darken-4">Web Sites</a>
+									<a href="#" class="my-bold blue-grey-text text-darken-4">Ui/Ux</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row my-row">
+						<div class="col s12 m8">
+							<div class="card">
+								<div class="card-image">
+									<img src="img/sec2photo1.jpg" alt="Photo">
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4 right">
+							<div class="card">
+								<div class="card-image">
+									<img src="img/sec2photo2.jpg" alt="Photo">
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card">
+								<div class="card-image">
+									<img src="img/sec2photo3.jpg" alt="Photo">
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card">
+								<div class="card-image">
+									<img src="img/sec2photo4.jpg" alt="Photo">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="my-btn-pad col 12 center">
+					  	<a class="my-bold my-trn-btn1 red darken-3 waves-effect waves-light btn-large">See our work</a>
+					</div>
+				</div>
+			</section>
+			<section id="process">
+				<div class="container">
+					<div class="row">
+						<div class="my-col-2 col s12 m9 center ">
+							<h4 class="my-bold white-text">Example Of Work Process</h4>
+							<p class="blue-grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+						</div>
+						<div class="my-svg-pad row center">
+							<div class="my-svg col s6 l2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
+									<path d="M16.142 2l5.858 5.858v8.284l-5.858 5.858h-8.284l-5.858-5.858v-8.284l5.858-5.858h8.284zm.829-2h-9.942l-7.029 7.029v9.941l7.029 7.03h9.941l7.03-7.029v-9.942l-7.029-7.029z" stroke="#2d3f51" stroke-width="1.5"/>
+									<text x="9.5" y="14.5" class="small my-bold">1</text>
+								</svg>
+								<p class="white-text">RESEARCH</p>
+							</div>
+							<div class="my-svg col s6 l2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" stroke-width="1">
+									<path d="M16.142 2l5.858 5.858v8.284l-5.858 5.858h-8.284l-5.858-5.858v-8.284l5.858-5.858h8.284zm.829-2h-9.942l-7.029 7.029v9.941l7.029 7.03h9.941l7.03-7.029v-9.942l-7.029-7.029z" stroke="#2d3f51" stroke-width="1.5"/>
+									<text x="9.5" y="14.5" class="small my-bold">2</text>
+								</svg>
+								<p class="white-text">SKETCHING</p>
+							</div>
+							<div class="my-svg col s6 l2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
+									<path d="M16.142 2l5.858 5.858v8.284l-5.858 5.858h-8.284l-5.858-5.858v-8.284l5.858-5.858h8.284zm.829-2h-9.942l-7.029 7.029v9.941l7.029 7.03h9.941l7.03-7.029v-9.942l-7.029-7.029z" stroke="#2d3f51" stroke-width="1.5"/>
+									<text x="9.5" y="14.5" class="small my-bold">3</text>
+								</svg>
+								<p class="white-text">DESIGN APPROCH</p>
+							</div>
+							<div class="my-svg col s6 l2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
+									<path d="M16.142 2l5.858 5.858v8.284l-5.858 5.858h-8.284l-5.858-5.858v-8.284l5.858-5.858h8.284zm.829-2h-9.942l-7.029 7.029v9.941l7.029 7.03h9.941l7.03-7.029v-9.942l-7.029-7.029z" stroke="#2d3f51" stroke-width="1.5"/>
+									<text x="9.5" y="14.5" class="small my-bold">4</text>
+								</svg>
+								<p class="white-text">DEVELOPMENT</p>
+							</div>
+							<div class="my-svg col s6 l2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
+									<path d="M16.142 2l5.858 5.858v8.284l-5.858 5.858h-8.284l-5.858-5.858v-8.284l5.858-5.858h8.284zm.829-2h-9.942l-7.029 7.029v9.941l7.029 7.03h9.941l7.03-7.029v-9.942l-7.029-7.029z" stroke="#2d3f51" stroke-width="1.5"/>
+									<text x="9.5" y="14.5" class="small my-bold">5</text>
+								</svg>
+								<p class="white-text">START TESTING</p>
+							</div>
+							<div class="my-svg col s6 l2">
+								<svg class="" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
+									<path d="M16.142 2l5.858 5.858v8.284l-5.858 5.858h-8.284l-5.858-5.858v-8.284l5.858-5.858h8.284zm.829-2h-9.942l-7.029 7.029v9.941l7.029 7.03h9.941l7.03-7.029v-9.942l-7.029-7.029z" stroke="#2d3f51" stroke-width="1.5"/>
+									<text x="9.5" y="14.5" class="small my-bold">6</text>
+								</svg>
+								<p class="white-text">PRODUCT LAUCH</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="my-col-2 col s12 m10 center ">
+							<h4 class="my-ser-pad my-bold blue-grey-text text-darken-4">Our Amazing Service</h4>
+							<p class="blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+						</div>
+						<div class="row">
+							<div class="col m4">
+								<div class="my-card card">
+									<div class="card-image center">
+										<svg class="my-cardsvg" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
+											<path d="M16.142 2l5.858 5.858v8.284l-5.858 5.858h-8.284l-5.858-5.858v-8.284l5.858-5.858h8.284zm.829-2h-9.942l-7.029 7.029v9.941l7.029 7.03h9.941l7.03-7.029v-9.942l-7.029-7.029z" stroke="#fff" stroke-width="1.5"/>
+											<image xlink:href="img/shape1.png" x="6.5" y="5" height="15" width="11" ></image>
+										</svg>
+									</div>
+									<div class="card-content center">
+										<h6 class="my-bold blue-grey-text text-darken-4">GRAPHIC DESIGN</h6>
+										<p class="blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									</div>
+								</div>
+							</div>
+							<div class="col m4">
+								<div class="my-card card">
+									<div class="card-image center">
+										<svg class="my-cardsvg" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
+											<path d="M16.142 2l5.858 5.858v8.284l-5.858 5.858h-8.284l-5.858-5.858v-8.284l5.858-5.858h8.284zm.829-2h-9.942l-7.029 7.029v9.941l7.029 7.03h9.941l7.03-7.029v-9.942l-7.029-7.029z" stroke="#fff" stroke-width="1.5"/>
+											<image xlink:href="img/shape2.png" x="6.5" y="5" height="15" width="11" ></image>
+										</svg>
+									</div>
+									<div class="card-content center">
+										<h6 class="my-bold blue-grey-text text-darken-4">SITE DEVELOPMENT</h6>
+										<p class="blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									</div>
+								</div>
+							</div>
+							<div class="col m4">
+								<div class="my-card card">
+									<div class="card-image center">
+										<svg class="my-cardsvg" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
+											<path d="M16.142 2l5.858 5.858v8.284l-5.858 5.858h-8.284l-5.858-5.858v-8.284l5.858-5.858h8.284zm.829-2h-9.942l-7.029 7.029v9.941l7.029 7.03h9.941l7.03-7.029v-9.942l-7.029-7.029z" stroke="#fff" stroke-width="1.5"/>
+											<image xlink:href="img/shape3.png" x="6.5" y="5" height="15" width="11" ></image>
+										</svg>
+									</div>
+									<div class="card-content center">
+										<h6 class="my-bold blue-grey-text text-darken-4">SEO OPTIMIZATION</h6>
+										<p class="blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									</div>
+								</div>
+							</div>
+							<div class="col m4">
+								<div class="my-card card">
+									<div class="card-image center">
+										<svg class="my-cardsvg" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
+											<path d="M16.142 2l5.858 5.858v8.284l-5.858 5.858h-8.284l-5.858-5.858v-8.284l5.858-5.858h8.284zm.829-2h-9.942l-7.029 7.029v9.941l7.029 7.03h9.941l7.03-7.029v-9.942l-7.029-7.029z" stroke="#fff" stroke-width="1.5"/>
+											<image xlink:href="img/shape4.png" x="6.5" y="5" height="15" width="11" ></image>
+										</svg>
+									</div>
+									<div class="card-content center">
+										<h6 class="my-bold blue-grey-text text-darken-4">MOBILE DEVELOPMENT</h6>
+										<p class="blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									</div>
+								</div>
+							</div>
+							<div class="col m4">
+								<div class="my-card card">
+									<div class="card-image center">
+										<svg class="my-cardsvg" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
+											<path d="M16.142 2l5.858 5.858v8.284l-5.858 5.858h-8.284l-5.858-5.858v-8.284l5.858-5.858h8.284zm.829-2h-9.942l-7.029 7.029v9.941l7.029 7.03h9.941l7.03-7.029v-9.942l-7.029-7.029z" stroke="#fff" stroke-width="1.5"/>
+											<image xlink:href="img/shape5.png" x="6.5" y="5" height="15" width="11" ></image>
+										</svg>
+									</div>
+									<div class="card-content center">
+										<h6 class="my-bold blue-grey-text text-darken-4">SUPPORT 24 HOURS</h6>
+										<p class="blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									</div>
+								</div>
+							</div>
+							<div class="col m4">
+								<div class="my-card card">
+									<div class="card-image center">
+										<svg class="my-cardsvg" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
+											<path d="M16.142 2l5.858 5.858v8.284l-5.858 5.858h-8.284l-5.858-5.858v-8.284l5.858-5.858h8.284zm.829-2h-9.942l-7.029 7.029v9.941l7.029 7.03h9.941l7.03-7.029v-9.942l-7.029-7.029z" stroke="#fff" stroke-width="1.5"/>
+											<image xlink:href="img/shape6.png" x="6.5" y="5" height="15" width="11" ></image>
+										</svg>
+									</div>
+									<div class="card-content center">
+										<h6 class="my-bold blue-grey-text text-darken-4">FREE HOSTING</h6>
+										<p class="blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="client">
+				<div class="container">
+					<div class="row">
+						<div class="col m8">
+							<h4 class="my-bold white-text center">Client About Us</h4>
+							<div class="my-client carousel carousel-slider center">
+								<div class="carousel-item white-text" href="#one!">
+									<div class="my-man"></div>
+									<p class="redtext">Client</p>
+									<h2>JOHN DOE</h2>
+									<p class="blue-grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+									<p class="redtext"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+								</div>
+								<div class="carousel-item white-text" href="#two!">
+									<div class="my-man1"></div>
+									<p class="redtext">Client</p>
+									<h2 class="my-upper">Gabriel Yoshua</h2>
+									<p class="blue-grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+									<p class="redtext"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+								</div>
+								<div class="carousel-item white-text" href="#three!">
+									<div class="my-man2"></div>
+									<p class="redtext">Client</p>
+									<h2 class="my-upper">Adik N.K.L</h2>
+									<p class="blue-grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+									<p class="redtext"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="my-col-2 col s12 m10 center ">
+							<h4 class="my-news-pad my-bold blue-grey-text text-darken-4">From Blog News</h4>
+							<p class="blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col m12">
+							<div class="card horizontal">
+								<div class="card-image">
+									<img src="img/sec6photo1.jpg" alt="Photo">
+							  	</div>
+								<div class="card-stacked">
+								  	<div class="card-content">
+										<a class="red-text may" href="#">25 May 2018</a>
+										<a class="red-text" href="#">Admin</a>
+									  	<h6 class="my-upper my-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</h6>
+										<p class="my-card-pad blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde</p>
+									  	<a class="my-upper my-bold blue-grey-text text-darken-4" href="#">Read more</a>
+								  	</div>
+							  	</div>
+						  	</div>
+						</div>
+						<div class="col m4">
+							<div class="card">
+								<div class="card-content">	
+									<a class="red-text may" href="#">25 May 2018</a>
+									<a class="red-text" href="#">Admin</a>
+									<h6 class="my-upper my-bold">Lorem ipsum dolor sit amet</h6>
+									<p class="my-card-pad blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									<a class="my-upper my-bold blue-grey-text text-darken-4" href="#">Read more</a>
+							  	</div>
+							</div>
+						</div>
+						<div class="col m4">
+							<div class="card">
+								<div class="card-content">	
+									<a class="red-text may" href="#">25 May 2018</a>
+									<a class="red-text" href="#">Admin</a>
+									<h6 class="my-upper my-bold blue-grey-text text-darken-4">Lorem ipsum dolor sit amet</h6>
+									<p class="my-card-pad blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									<a class="my-upper my-bold blue-grey-text text-darken-4" href="#">Read more</a>
+							  	</div>
+							</div>
+						</div>
+						<div class="col m4">
+							<div class="card">
+							  	<div class="card-content">	
+									<a class="red-text may" href="#">25 May 2018</a>
+									<a class="red-text" href="#">Admin</a>
+									<h6 class="my-upper my-bold">Lorem ipsum dolor sit amet</h6>
+									<p class="my-card-pad blue-grey-text text-darken-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									<a class="my-upper my-bold blue-grey-text text-darken-4" href="#">Read more</a>
+							  	</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container center white-text">
+				<ul class="my-icons-foot">
+					<li><a href="">Home</a></li>
+					<li><a href="">About us</a></li>
+					<li><a href="">Portfolio</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href=""><i class="material-icons">search</i></a></li>
+				</ul>
+				<ul class="my-icons-foot2">
+					<li><a href=""><i class="fab fa-facebook-f red-text"></i></a></li>
+					<li><a href=""><i class="fab fa-behance red-text"></i></a></li>
+					<li><a href=""><i class="fab fa-twitter red-text"></i></a></li>
+					<li><a href=""><i class="fab fa-instagram red-text"></i></a></li>
+					<li><a href=""><i class="fab fa-pinterest red-text"></i></a></li>
+					<li><a href=""><i class="fab fa-dribbble red-text"></i></a></li>
+				</ul>
+				<p>Copyrights free-psd-template.com</p>
+			</div>
+		</footer>
+		
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.sidenav').sidenav();
+				$('.carousel').carousel({
+					fullWidth: true,
+					indicators: true,
+				});
+				setInterval(function() {
+					$('.carousel').carousel('next');
+				}, 10000);
+				$('.carousel.carousel-slider').carousel({
+					fullWidth: true,
+					indicators: true
+				});
+			});
+		</script>
+	</body>
+</html>
+        
